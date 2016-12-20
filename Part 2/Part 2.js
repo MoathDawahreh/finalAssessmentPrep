@@ -32,3 +32,78 @@
  */
 
 //writ your code here .....
+ function players(name){
+ 	var name=name;
+ 	 player={};
+ 	 player.addInfo=addInfo,
+ 	 //player.level
+ 	 player.availability
+ 	 player.isAvailable=isAvailable;
+ 	 player.decrease=decrease
+ 
+ 	 return player;
+
+
+ }
+
+ var addInfo=function(age,position,level,availability){
+ 	return{
+ 		age:age,
+ 		position:position,
+ 		level:level,
+ 		availability:availability
+ 	};
+
+ }
+
+ var increaseLevel=function(n){
+ 	this.level=n; 
+ }
+
+ var isAvailable=function(){
+ 	if (this.availability===undefined) {
+ 		return false
+ 	}else{
+ 		return true
+ 	}
+
+ }
+ var decrease=function(arr){
+ 	for (var i = 0; i < arr.length; i++) {
+ 	    if (arr[i].age>30) {
+ 	    	this.level=this.level-1 
+ 		}
+ 	}
+ 	
+ }
+
+ var sortPalyerBy=function(array,str){
+ 	for (var i = 0; i < array.length; i++) {
+ 		if (str===array[i].name) {
+ 			
+ 		}
+ 		
+
+
+ // }
+ // var addToarr=function(){
+ 	
+
+ // }
+
+
+
+
+ var player1=players('moath')
+ var player2=players('Farah')
+ var player3=players('Adam')
+ var player4=players('sara')
+ var allPlayers=[];
+ allPlayers.push(player1)
+ allPlayers.push(player2)
+ allPlayers.push(player3)
+ allPlayers.push(player4)
+
+
+
+
